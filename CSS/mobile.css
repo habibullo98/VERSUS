@@ -1,0 +1,289 @@
+@media screen and (max-width: 980px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .works-block {
+    width: 270px;
+    margin: 0 8px 22px;
+  }
+
+  .works-block img {
+    width: 100%;
+  }
+
+  :root {
+    --latofonts: 'Lato', sans-serif;
+    --opensansFonts: 'Open Sans', sans-serif;
+    --colorFull: #00D6B4;
+    --colorText: #ffffff;
+    --colorLink: #e7e7e7;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .works-blocks {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 940px) {
+
+  :root {
+    --latofonts: 'Lato', sans-serif;
+    --opensansFonts: 'Open Sans', sans-serif;
+    --colorFull: #00D6B4;
+    --colorText: #ffffff;
+    --colorLink: #e7e7e7;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .works-blocks {
+    justify-content: space-evenly;
+  }
+
+  .work1 {
+    transform: translateX(-170%);
+    transition: all .5s ease;
+  }
+
+  .work2 {
+    transform: scale(0, 0);
+    transition: all .5s ease;
+  }
+
+  .work3 {
+    transform: translateX(-170%);
+    transition: all 1s ease;
+  }
+
+  .work3-animate {
+    transform: translateX(0);
+    transition: all 1s ease;
+  }
+
+  .work3_2 {
+    transform: translateX(-400%);
+    transition: all 1s ease;
+  }
+
+  .work3_2-animate {
+    transform: translateX(0);
+    transition: all 1s ease;
+  }
+
+  .work4 {
+    transform: translateX(170%);
+    transition: all 1s ease;
+  }
+
+  .work4-animate {
+    transform: translateX(0);
+    transition: all 1s ease;
+  }
+
+  .works-block {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 8px 22px;
+  }
+
+  .works-block img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  :root {
+    --latofonts: 'Lato', sans-serif;
+    --opensansFonts: 'Open Sans', sans-serif;
+    --colorFull: #00D6B4;
+    --colorText: #ffffff;
+    --colorLink: #e7e7e7;
+  }
+
+  .header {
+    position: relative;
+    padding: 28px 0 25px;
+  }
+
+  .header-text {
+    margin: 75px auto 0;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    position: absolute;
+    top: -300px;
+    right: 0;
+    z-index: 300;
+    background-color: #222;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+  }
+
+  .fa-circle-xmark {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 400;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .works-block {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 8px 22px;
+  }
+
+  .works-block img {
+    width: 100%;
+  }
+
+  .works {
+    padding: 50px 0;
+  }
+
+  .work1 {
+    transform: translateX(-170%);
+    transition: all .5s ease;
+  }
+
+  .work2 {
+    transform: scale(0, 0);
+    transition: all .5s ease;
+  }
+
+  .work3 {
+    transform: translateX(170%);
+    transition: all .5s ease;
+  }
+
+  .work3-animate {
+    transform: translateX(0);
+    transition: all .5s ease;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .works {
+    padding: 50px 0;
+  }
+
+  .works-block {
+    margin: 20px;
+    width: 75%;
+  }
+
+  .works-block img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  :root {
+    --latofonts: 'Lato', sans-serif;
+    --opensansFonts: 'Open Sans', sans-serif;
+    --colorFull: #00D6B4;
+    --colorText: #ffffff;
+    --colorLink: #e7e7e7;
+  }
+
+  .header {
+    position: relative;
+    padding: 28px 0 25px;
+  }
+
+  .header-text {
+    margin: 75px auto 0;
+  }
+
+  .header-text-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    position: absolute;
+    top: -300px;
+    right: 0;
+    z-index: 300;
+    background-color: #222;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all .5s ease;
+  }
+
+  .fa-circle-xmark {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 400;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .nav-items .nav-item {
+    margin-left: 0;
+  }
+
+  .works {
+    padding: 50px 0 0;
+  }
+
+  .works-block {
+    margin: 20px;
+    width: 90%;
+  }
+
+  .work3 {
+    transform: translateX(170%);
+    transition: all .5s ease;
+  }
+
+  .work3-animate {
+    transform: translateX(0);
+    transition: all .5s ease;
+  }
+
+  .works-block img {
+    width: 100%;
+  }
+}
